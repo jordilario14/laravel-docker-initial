@@ -1,0 +1,86 @@
+
+html, body{
+  background-color: rgb(230, 241, 248);
+}
+label{
+  margin-bottom: 0.2rem;
+}
+input[type=text] {
+  padding: 8px 8px 8px 0px;
+  display: block;
+  border: none;
+      border-bottom-color: currentcolor;
+      border-bottom-style: none;
+      border-bottom-width: medium;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+input[type=text]:focus-visible {
+  color: mediumseagreen;
+  outline: none;
+  border-bottom: 1px solid rgb(0, 110, 255);
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.add-btn:hover {
+  cursor: pointer;
+}
+
+.add-btn {
+  background-color: rgb(0, 110, 255);
+  color: white;
+  margin-top: 2rem;
+  padding: 8px 8px 8px 8px;
+  display: block;
+  border: none;
+  width: 80%;
+}
+
+.add-btn:active {
+  background-color: rgb(0, 26, 255);
+  color: white;
+  margin-top: 2rem;
+  padding: 8px 8px 8px 8px;
+  display: block;
+  border: none;
+  width: 80%;
+}
+
+.centered{
+  justify-content: center;
+  display: flex;
+}
+
+.card-nuptic{
+  margin-top: 3rem;
+  padding: 2rem;
+  min-width: 300px;
+  min-width: 600px;
+  width: auto;
+  border: 1px solid black;
+  box-shadow: 10px 10px 0px 0px black ;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-basis: 100%;
+  flex: 1;
+  justify-content: center;
+  align-content: center;
+}
+
+.divisor{
+  max-width: 120px;
+  border-top: 3px solid rgb(0, 110, 255);
+}
