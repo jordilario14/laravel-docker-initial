@@ -113,6 +113,13 @@ return [
         'emergency' => [
             'path' => storage_path('logs/laravel.log'),
         ],
+
+        'orval' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/orval.log'),
+            'level' => 'info',
+
+        ],
     ],
 
 ];

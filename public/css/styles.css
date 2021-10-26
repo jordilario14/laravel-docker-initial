@@ -24,7 +24,7 @@ input[type=text]:focus-visible {
 
 .disabled {
   pointer-events: none;
-  opacity: 0.4;
+  opacity: 0.7;
 }
 
 .add-btn:hover {
@@ -83,4 +83,25 @@ input[type=text]:focus-visible {
 .divisor{
   max-width: 120px;
   border-top: 3px solid rgb(0, 110, 255);
+}
+
+.spinner-container{
+  margin-top:1rem;
+}
+
+.hidden{
+  display: none;
+}
+
+.visible{
+  display: flex;
+}
+
+.blue-main{
+  color: rgb(0, 110, 255);
+}
+
+.result-text{
+  font-weight: 600;
+  padding: 1rem;
 }

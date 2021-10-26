@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::post('simulation', 'App\Http\Controllers\AjaxController@simulation');
+Route::get('get-nuptic', 'App\Http\Controllers\AjaxController@getNuptic');
+
 Route::get('/', function () {
     return view('home');
 });
